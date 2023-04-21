@@ -1,5 +1,5 @@
 
-export const cyrb128 = (str) => {
+export const cyrb128 = (seed) => {
     let h1 = 1779033703, h2 = 3144134277,
         h3 = 1013904242, h4 = 2773480762;
     for (let i = 0, k; i < seed.length; i++) {
