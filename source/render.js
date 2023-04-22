@@ -7,8 +7,8 @@ const baseRandom = sfc32(0, 0, 0, 0);
 
 let scale = 1000;
 let todo = [];
-const popOut = 250000;
-const popIn = 200000;
+const popOut = 350000;
+const popIn = 300000;
 
 const scene = new THREE.Scene();
 
